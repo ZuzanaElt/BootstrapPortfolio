@@ -7,6 +7,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color:rgb(231, 231, 236);
 }
 
 h1,
@@ -23,3 +24,93 @@ p {
 }
 
 /* Header line with name and menu*/
+
+
+
+.navbar{
+  
+  background-color:rgb(231, 231, 236) !important;
+ width:100%;
+}
+
+.navbar-brand {
+  margin-right:1%;
+  display:flex;
+  max-width: fit-content;
+}
+
+.navbar-nav{
+  border:2px solid red;
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+/* jumbotron*/
+
+
+
+#myImage{
+  width:100%;
+  height:auto;
+  padding:10px;
+  
+  margin-left: -20px;
+  align-content:flex-end;
+}
+.jumbotron{
+  background-image: url("../Images/white-painted-wall-texture-background.jpg");
+  padding-left:15%;
+  padding-right:20%;
+  display:flex;
+}
+.social-jumbo{
+  display: flex; 
+  flex-direction: row; 
+  padding-top:80px; 
+  padding-left:40px;
+  position:relative;
+
+
+ 
+ 
+}
+
+
+/* projects/my work section */
+
+.work-title {
+  padding :10px;
+  margin-left:38%;
+  display:flex;
+  font-size: 30px;
+
+}
+.mywork-container {
+padding-bottom: 30px;
+
+}
+.container-fluid{
+width:100%;
+ }
+
+
+/*skills section*/
+.skills-logo {
+  background-color: rgb(231, 231, 236);
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-evenly; 
+  align-items: center;
+
+}
+
+
+.card2-body{
+  
+  padding:5px;
+  margin:5px;
+  width:fit-content;
+  justify-items: center;
+  align-items: center;
+  font-size: xx-large;
+}

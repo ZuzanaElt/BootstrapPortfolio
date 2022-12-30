@@ -5,25 +5,194 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio // Web Developer</title>
+  <title>Bootstrap based Portfolio</title>
   <link rel="stylesheet" href="./css/style.css" />
 </head>
  <!-- Bootstrap CSS -->
 
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
+   <!-- Custom fonts for this template -->  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+
  <link href="./css/style.css" rel="stylesheet">
+ 
 
-
-
-
-
-
-
-  <!-- Body -->
 <body>
+  <!-- Bootstrap NavBar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+    <img src="./Images/zk-low-resolution-logo-black-on-transparent-background.png" alt="zk logo" width="35" height="25">
+        </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" href="">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Work</a>
+        <a class="nav-link" href="#">Skills</a>
+        <a class="nav-link" href="#">About</a>
+        <!-- deleted <a class="nav-link disabled">Disabled</a>-->
+      </div>
+    </div>
+</nav>
+ 
+<!--Jumbotron with hero section  from Bootstrap  -->
+  <div class="jumbotron">
+
+      <div class="photo-placement">
+        <img id="myImage" class="rounded-circle" src="../BootstrapPortfolio/Images/selfie.jpg" >
+     
+
+        <!--adding social-->
+        <div>
+          <div class="social-jumbo">
+            <a href="https://www.linkedin.com/in/zuzana-knightova-1b6407106/"  style="font-size: 30px; padding-right: 10px;">
+              <i class="fa-brands fa-linkedin"></i> </a>
+                
+            <a href="https://github.com/ZuzanaElt" style="font-size: 30px; padding-right: 10px;"> 
+              <i class="fa-brands fa-github">      </i> </a>
+           </div>
+       </div>
+        <!--end of social-->
+      </div>
+
+    
+      
+   <div>
+       <h3> Web developer</h3>
+       <h2 class="display-4">Zuzana Knightova</h2>
+        <p class="lead">Hi! I am a web developer, based in the UK and in Europe. If you are looking for an international person that understands web development then get in touch. </p>
+        <hr class="my-4">
+         <p>I am taking part in Bootcamp which every day develops my front-end development knowledge even further. Come back to see how I am expanding my skills portfolio.</p>
+
+        <hr>
+        
+        <a class="btn btn-primary btn-lg" href="mailto: zuzanaeltom@gmail.com" role="" style="background-color:black"> Email me</a> 
+        <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/zuzana-knightova-1b6407106/" role="button" style="background-color:black">My CV (on LinkedIn)</a>
+
+        <br>
+        <br>
+    </div>
+  
+  </div>
+
+<!--Work section - work in grid - use Bootstrap cards  -->
+
+ <div class="mywork-container"> 
+  <p class="work-title" id="my-projects"><span style="font-weight: 900;"> My Projects</span></p>
+  <br>
+    <div class="container">
+      <div class="row">
+
+        <!--card one-->
+        <div class="col-sm">
+          <div class="card text-white bg-dark mb-3 h-100" style="width: 18rem;">
+            <img src="../BootstrapPortfolio/Images/2 by 3 orange background.jpg" class="card-img-top" alt="background image" style="padding:3px;">
+            <div class="card-body">
+              <h5 class="card-title">My very first page</h5>
+              <p class="card-text"> Creating Portfolio using HTML and CSS only</p>
+              <a href="https://zuzanaelt.github.io/profil/" class="btn btn-primary">Project 1</a>
+            </div>
+          </div>
+        </div>
+
+        <!--card 2-->
+        <div class="col-sm">
+          <div class="card text-white bg-dark mb-3 h-100" style="width: 18rem;">
+            <img src="../BootstrapPortfolio/Images/white-painted-wall-texture-background.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Project description TBC</p>
+              <a href="#" class="btn btn-primary">I want to see</a>
+            </div>
+          </div>
+        </div>
+
+        <!--card three-->
+        <div class="col-sm">
+          <div class="card text-white bg-dark mb-3 h-100" style="width: 18rem;">
+            <img src="../BootstrapPortfolio/Images/02-hero-bg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">Project description TBC</p>
+              <a href="#" class="btn btn-primary">Let me see</a>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+</div>
+<!--End of Work grid-->
+
+<!--Skills section -skills expected to learn + About me  -->
+
+  <div>
+    <p class="work-title"><span style="font-weight: 900;"> Skills</span></p>
+  </div>
+  <div class="skills-box" style="background-color: rgb(231, 231, 236)";>
+  
+    <div class="card skills-logo">
+     
+      <div class="card2-body">
+       <p> <i class="fa-brands fa-html5"> </i></p>
+       <p><span style="font-size:18px;">HTML</span> </p>
+      </div>
+      
+      <div class="card2-body">
+        <p> <i class="fa-brands fa-css3-alt"> </i></p>
+        <p><span style="font-size: 18px;">CSS</span> </p>
+       </div>
+
+       <div class="card2-body">
+        <p> <i class="fa-brands fa-bootstrap"> </i></p>
+        <p><span style="font-size: 18px;">Bootstrap</span> </p>
+       </div>
+
+       <div class="card2-body">
+        <p> <i class="fa-brands fa-js" style="font-size:40px;"> </i></p>
+        <p><span style=" font-size: 18px;">Java Script</span> </p>
+       </div>
+
+   </div>
+  </div>
 
 
 
+
+<!-- about me section-->
+<div>
+  <p class="work-title"><span style="font-weight: 900;"> About me</span></p>
+</div>
+
+
+  <hr>
+  <!--Footer with hyperlinks with hover and box shadow -->
+  <footer>
+    <div> 
+      <p>Contact me</p>
+      <p> Email</p>
+      <p> Phone</p>
+      <p> LinkedIn</p>
+      
+  </div>
+     <!--adding social-->
+      
+    <div class="social">
+      <i class="fa-brands fa-github"></i>
+      <i class="fa-brands fa-linkedin"></i>
+    </div>
+    </div>
+
+  </footer>
 
 </body>
