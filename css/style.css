@@ -69,10 +69,6 @@ p {
   padding-top:80px; 
   padding-left:40px;
   position:relative;
-
-
- 
- 
 }
 
 
@@ -109,8 +105,77 @@ width:100%;
   
   padding:5px;
   margin:5px;
-  width:fit-content;
+  width:120px;
   justify-items: center;
   align-items: center;
   font-size: xx-large;
 }
+
+/*About-me*/
+.my-bio{
+  margin:10%;
+  margin-top: 10px;
+}
+
+
+/*form*/
+
+.subtitle-contact{
+ 
+  padding :10px;
+  justify-content:center;
+  display:flex;
+}
+
+.control-title{
+  border: 1px solid blue;
+  color:white;
+  background-color: black;
+}
+.contact{
+  padding: 4%;
+  height: auto;
+}
+.col-md-3{
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+  margin-top:10%;
+}
+.contact-info h2{
+  margin-bottom: 10%;
+}
+.col-md-9{
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+  font-weight:400;
+}
+.contact-form button{
+  background:black;
+	color: rgb(255, 255, 255);
+  font-weight: 400;
+  width: 25%;
+}
+.contact-form button:focus{
+  box-shadow:none;
+}
+
+
+.img-logo{
+  
+  background-image: url("../Images/zk-low-resolution-logo-black-on-transparent-background.png");
+  max-width: 100%;
+opacity:0.6;
+}
+
+.contact-text{
+  
+  margin-top: 50%;
+  background-color: black;
+}
+

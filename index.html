@@ -26,20 +26,19 @@
 
 <body>
   <!-- Bootstrap NavBar -->
-
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-    <img src="./Images/zk-low-resolution-logo-black-on-transparent-background.png" alt="zk logo" width="35" height="25">
-        </a>
+    <a class="navbar-brand " href="#">
+      <img src="./Images/zk-low-resolution-logo-black-on-transparent-background.png" alt="zk logo" width="35" height="25" >
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" href="">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="#">Work</a>
-        <a class="nav-link" href="#">Skills</a>
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#my-projects">Work</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#about-section">About</a>
         <!-- deleted <a class="nav-link disabled">Disabled</a>-->
       </div>
     </div>
@@ -77,6 +76,7 @@
         <hr>
         
         <a class="btn btn-primary btn-lg" href="mailto: zuzanaeltom@gmail.com" role="" style="background-color:black"> Email me</a> 
+
         <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/zuzana-knightova-1b6407106/" role="button" style="background-color:black">My CV (on LinkedIn)</a>
 
         <br>
@@ -94,7 +94,7 @@
       <div class="row">
 
         <!--card one-->
-        <div class="col-sm">
+        <div class="col-sm shadow p-3 mb-5 bg-black rounded">
           <div class="card text-white bg-dark mb-3 h-100" style="width: 18rem;">
             <img src="../BootstrapPortfolio/Images/2 by 3 orange background.jpg" class="card-img-top" alt="background image" style="padding:3px;">
             <div class="card-body">
@@ -106,7 +106,7 @@
         </div>
 
         <!--card 2-->
-        <div class="col-sm">
+        <div class="col-sm shadow p-3 mb-5 bg-black rounded">
           <div class="card text-white bg-dark mb-3 h-100" style="width: 18rem;">
             <img src="../BootstrapPortfolio/Images/white-painted-wall-texture-background.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -118,7 +118,7 @@
         </div>
 
         <!--card three-->
-        <div class="col-sm">
+        <div class="col-sm shadow p-3 mb-5 bg-black rounded">
           <div class="card text-white bg-dark mb-3 h-100" style="width: 18rem;">
             <img src="../BootstrapPortfolio/Images/02-hero-bg.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -134,31 +134,32 @@
 </div>
 <!--End of Work grid-->
 
-<!--Skills section -skills expected to learn + About me  -->
+<!--Skills section -skills expected to learn  -->
 
-  <div>
+  <div id="skills">
     <p class="work-title"><span style="font-weight: 900;"> Skills</span></p>
   </div>
   <div class="skills-box" style="background-color: rgb(231, 231, 236)";>
   
-    <div class="card skills-logo">
+    <div class="card skills-logo ">
      
-      <div class="card2-body">
+      
+      <div class="card2-body shadow p-3 mb-5 bg-white rounded">
        <p> <i class="fa-brands fa-html5"> </i></p>
        <p><span style="font-size:18px;">HTML</span> </p>
       </div>
       
-      <div class="card2-body">
+      <div class="card2-body shadow p-3 mb-5 bg-white rounded">
         <p> <i class="fa-brands fa-css3-alt"> </i></p>
         <p><span style="font-size: 18px;">CSS</span> </p>
        </div>
 
-       <div class="card2-body">
+       <div class="card2-body shadow p-3 mb-5 bg-white rounded">
         <p> <i class="fa-brands fa-bootstrap"> </i></p>
         <p><span style="font-size: 18px;">Bootstrap</span> </p>
        </div>
 
-       <div class="card2-body">
+       <div class="card2-body shadow p-3 mb-5 bg-white rounded">
         <p> <i class="fa-brands fa-js" style="font-size:40px;"> </i></p>
         <p><span style=" font-size: 18px;">Java Script</span> </p>
        </div>
@@ -171,28 +172,97 @@
 
 <!-- about me section-->
 <div>
-  <p class="work-title"><span style="font-weight: 900;"> About me</span></p>
+  <p class="work-title" id="about-section"><span style="font-weight: 900;"> About me</span></p>
+</div>
+<div>
+      <p class="my-bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum urn egestas eleifend felis, a feugiat lacus tincidunt eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum urn egestas eleifend felis, a feugiat lacus tincidunt eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum urn egestas eleifend felis, a feugiat lacus tincidunt eget</p>
 </div>
 
 
   <hr>
-  <!--Footer with hyperlinks with hover and box shadow -->
-  <footer>
+  <!--contact section -->
+ 
     <div> 
-      <p>Contact me</p>
-      <p> Email</p>
-      <p> Phone</p>
-      <p> LinkedIn</p>
+
+      <div>
+        <p class="work-title" id="contact-me"><span style="font-weight: 900;"> Contact Me</span>
+          <h4 class="subtitle-contact">I would love to hear from you!</h4>
+        </p>
+      </div>
+    
+     </div>
+    
       
+    
+
+  
+ <!-- form-->
+  <div class="container">
+    <div class="row ">
+      <div class="col">
+        <div class="container contact">
+          <div class="row">
+
+            <div class="col-md-6 shadow p-3 mb-5 bg-grey rounded">
+              <div class="contact-form">
+                <div class="form-group">
+                  <p class="control-label col-sm-12 control-title">Contact form</p>
+                </div> 
+                <div class="form-group">
+                  <label class="control-label col-sm-12" for="fname">First Name:</label>
+                  <div class="col-sm-12">          
+                  <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-12" for="lname">Last Name:</label>
+                    <div class="col-sm-12">          
+                        <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+                    </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-12" for="email">Email:</label>
+                  <div class="col-sm-12">
+                      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-12" for="comment">Comment:</label>
+                  <div class="col-sm-12">
+                  <textarea class="form-control" rows="5" id="comment"></textarea>
+                  </div>
+                </div>
+                <div class="form-group">        
+                  <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-default">Submit</button>
+                  </div>
+                </div>
+               </div>
+            </div>
+
+           
+            <div class="additional-details col-sm-6 shadow p-3 mb-5 bg-grey rounded img-logo">
+              
+              <div class="contact-text">
+                <p class="control-label  control-title">Or get in touch directly:
+                </p>
+                <a class="my-email " mailto:zuzanaeltom@gmail.com>Email me</a>
+                <br>
+                <a class="linkedin-contact ">Contact me through LinkedIn</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+         
+      </div>
+    </div>
+  </div>  
+  <!--end of column 2 form-->
+
+  <div class="social">
+    <i class="fa-brands fa-github"></i>
+    <i class="fa-brands fa-linkedin"></i>
   </div>
-     <!--adding social-->
-      
-    <div class="social">
-      <i class="fa-brands fa-github"></i>
-      <i class="fa-brands fa-linkedin"></i>
-    </div>
-    </div>
-
-  </footer>
-
+  
 </body>
