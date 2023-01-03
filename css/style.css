@@ -29,8 +29,6 @@ p {
 
 /* Header line with name and menu*/
 .navbar{
-  
- 
  width:100%;
 }
 
@@ -72,12 +70,15 @@ p {
   padding-left:40px;
   position:relative;
 }
+
+
 .btn:hover{
   opacity:0.7;
   color:#0cf9e5;
   box-shadow: grey 0px 3px 8px;
- 
+
 }
+
 /* projects/my work section */
 
 .work-title {
@@ -106,12 +107,10 @@ width:100%;
 
 }
 
-.card:hover{
-  opacity:0.8;
-
+img.card-img-top:hover{
+opacity:0.7;
 }
 .card2-body{
-  
   padding:5px;
   margin:5px;
   width:120px;
@@ -130,7 +129,6 @@ width:100%;
 /*form*/
 
 .subtitle-contact{
- 
   padding :10px;
   justify-content:center;
   display:flex;
@@ -176,20 +174,17 @@ width:100%;
 
 
 .img-logo{
-  
   background-image: url("../Images/zk-low-resolution-logo-black-on-transparent-background.png");
   max-width: 100%;
 opacity:0.6;
 }
 
 .contact-text{
-  
   margin-top: 50%;
   background-color: black;
 }
 
 /*footer*/
-
 .footer{
  padding-right:5px;
  padding-left:5px;

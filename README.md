@@ -7,7 +7,7 @@ There are several requirements that have to be completed:
 1. include a Navigation Bar from Bootstrap
 2. include navigation menu at the top
 3. include links that are applicable to your portfolio, links need to navigate to the sections
-4. Hero section with jumbotron featturing picture, name  plus other ifo
+4. Hero section with jumbotron featuring picture, name  plus other info
 5. Work section - work displyed in grid using boorstrap cards
 6. Skills section - list outskills I expect to learn from Bootcamp
 7. About Me section
@@ -38,9 +38,11 @@ There are several requirements that have to be completed:
 
 ### responsive buttons
  XXX:hover; was added to css
- .btn:hover{
-  opacity:0.7;
-  color:#0cf9e5;
-  box-shadow: grey 0px 3px 8px;
-}
+        .btn:hover{
+        opacity:0.7;
+        color:#0cf9e5;
+        box-shadow: grey 0px 3px 8px;
+        }
 
+## link to the page is here:
+https://zuzanaelt.github.io/BootstrapPortfolio/
