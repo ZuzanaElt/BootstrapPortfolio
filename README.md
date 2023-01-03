@@ -34,7 +34,7 @@ There are several requirements that have to be completed:
  jsutify-content:space-evenly;
  align-items:center;
 
- Also - the Hamburger menu is not opening. After reserarcing this it seems that link to JScript would need to be added. As we did not cover this in our lessons yet, I have decided to leave it as it is. This can be updated once we learn  what and how.
+ Also - the Hamburger menu is not opening. After researching this it seems that link to JScript would need to be added. As we did not cover this in our lessons yet, I have decided to leave it as it is. This can be updated once we learn  'what' and 'how'.
 
 ### responsive buttons
  XXX:hover; was added to css
