@@ -26,29 +26,23 @@
 
 <body>
   <!-- Bootstrap NavBar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light " id="app-navbar">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="app-navbar">
     <a class="navbar-brand " href="#">
-      <img src="./Images/zk-low-resolution-logo-black-on-transparent-background.png" alt="zk logo" width="35" height="25" >
+       <img src="./Images/zk-low-resolution-logo-black-on-transparent-background.png" alt="zk logo" width="35" height="25" >
     </a>
 
-    <!--hamburger button-->
-    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <!--button content-->
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" href="">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="#my-projects">Work</a>
-        <a class="nav-link" href="#skills">Skills</a>
-        <a class="nav-link" href="#about-section">About</a>
-        <!-- deleted <a class="nav-link disabled">Disabled</a>-->
-      </div>
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#my-projects">Work</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#about-section">About</a>
+        </div>
     </div>
 </nav>
- 
-
 
 <!--Jumbotron with hero section  from Bootstrap  -->
   <div class="jumbotron">
@@ -81,7 +75,7 @@
 
         <hr>
         
-        <a class="btn btn-primary btn-lg" href="mailto: zuzanaeltom@gmail.com" role="" style="background-color:black"> Email me</a> 
+        <!-- <a class="btn btn-primary btn-lg" href="mailto: zuzanaeltom@gmail.com" role="" style="background-color:black"> Email me</a>  -->
 
         <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/zuzana-knightova-1b6407106/" role="button" style="background-color:black">My CV (on LinkedIn)</a>
 
@@ -106,7 +100,7 @@
             <div class="card-body">
               <h5 class="card-title">Animaletics</h5>
               <p class="card-text"> An interactive game for 5-8 year olds, which displays fun facts as well gif about chosen animal.</p>
-              <a href="https://dalvat.github.io/animaletics-api-app/" class="btn btn-primary">Project 1</a>
+              <a href="https://dalvat.github.io/animaletics-api-app/" class="btn btn-primary project-button">Project 1</a>
             </div>
           </div>
         </div>
@@ -118,7 +112,7 @@
             <div class="card-body">
               <h5 class="card-title">Day Planner</h5>
               <p class="card-text">Don't forget your to-do list for today</p>
-              <a href="https://zuzanaelt.github.io/day-planner-page-/" class="btn btn-primary">I want to see</a>
+              <a href="https://zuzanaelt.github.io/day-planner-page-/" class="btn btn-primary project-button">I want to see</a>
             </div>
           </div>
         </div>
@@ -130,7 +124,7 @@
             <div class="card-body">
               <h5 class="card-title">Let's generate a password</h5>
               <p class="card-text">Password generator using alert box</p>
-              <a href="https://zuzanaelt.github.io/password-generator/" class="btn btn-primary">Let me see</a>
+              <a href="https://zuzanaelt.github.io/password-generator/" class="btn btn-primary project-button">Let me see</a>
             </div>
           </div>
         </div>
@@ -203,7 +197,7 @@
      </div>
     
  <!-- form-->
-  <div class="container">
+  <!-- <div class="container">
     <div class="row ">
       <div class="col">
         <div class="container contact">
@@ -244,28 +238,30 @@
                   </div>
                 </div>
                </div>
-            </div>
-  <!--end of  form-->
+            </div> -->
+  <!--end of  form -->
 
           <!-- additional details next to form--> 
             <div class="additional-details col-sm-6 shadow p-3 mb-5 bg-grey rounded img-logo">
               
-              <div class="contact-text">
-                <p class="control-label  control-title">Or get in touch directly:
-                </p>
-                <a class="my-email" href="mailto:zuzanaeltom@gmail.com"> Email me: zuzanaeltom@gmail.com</a>
-                <br>
-                <a class="linkedin-contact" href="https://www.linkedin.com/in/zuzana-knightova-1b6407106/">Contact me via LinkedIn</a>
-                <br>
-                <a class="git-hub " href="https://github.com/ZuzanaElt">Contact me via GitHub</a>
-              </div>
+                <div class="contact-text">
+                      <p class="control-label  control-title">You can get in touch directly:
+                      </p>
+                      <a class="my-email" href="mailto:zuzanaeltom@gmail.com"> Email me: zuzanaeltom@gmail.com</a>
+                      <br>
+                      <a class="linkedin-contact" href="https://www.linkedin.com/in/zuzana-knightova-1b6407106/">Contact me via LinkedIn</a>
+                      <br>
+                      <a class="git-hub " href="https://github.com/ZuzanaElt">Contact me via GitHub</a>
+                </div>
             </div>         
           </div>
         </div>
       </div>
     </div>
   </div>  
-
+ 
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 
 <footer >
@@ -283,3 +279,4 @@
       </div>
     </div>
 </footer>
+

@@ -135,9 +135,7 @@ opacity:0.7;
 }
 
 .control-title{
-  border: 1px solid black;
-  color:white;
-  background-color: black;
+  
 }
 .contact{
   padding: 4%;
@@ -162,7 +160,7 @@ opacity:0.7;
 .contact-form label{
   font-weight:400;
 }
-.contact-form button{
+.contact-form input{
   background:black;
 	color: rgb(255, 255, 255);
   font-weight: 400;
@@ -171,17 +169,34 @@ opacity:0.7;
 .contact-form button:focus{
   box-shadow:none;
 }
-
-
-.img-logo{
-  background-image: url("../Images/zk-low-resolution-logo-black-on-transparent-background.png");
-  max-width: 100%;
-opacity:0.6;
+.additional-details{
+  
+  padding :10px;
+  justify-content:center;
+  display:flex;
+  margin: auto;
 }
 
+/* .img-logo{
+  background-image: url("../Images/zk-low-resolution-logo-black-on-transparent-background.png");
+  max-width: 50%;
+  opacity:0.8;
+ 
+  
+  background-repeat: no-repeat
+} */
+
+a {
+  color: rgb(81, 104, 238);
+  text-decoration: none;
+  background-color: transparent;
+}
 .contact-text{
-  margin-top: 50%;
-  background-color: black;
+  margin-top: 5%;
+  background-color:transparent;
+
+ 
+
 }
 
 /*footer*/
@@ -195,4 +210,8 @@ opacity:0.6;
   align-items:center;
   justify-content:space-around;
   background-color:darkgray;
+}
+
+.project-button{
+  margin-top:10px;
 }
